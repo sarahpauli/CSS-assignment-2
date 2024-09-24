@@ -2,6 +2,14 @@
 
 
 /* you may add to or change the body rule */
+html {
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
 body {
     font-family: sans-serif;
     color: #fff;
@@ -49,7 +57,6 @@ section {
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.5rem;
-    max-width: 40%;
 }
 
 .text h2 {
@@ -57,7 +64,7 @@ section {
 }
 
 .photo {
-    padding: 1rem;
+    margin: 1rem;
 }
 
 
