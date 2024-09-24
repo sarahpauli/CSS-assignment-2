@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -25,12 +26,14 @@ nav ul {
 nav ul li {
     margin: 0;
     margin-left: 1rem;
-    a {
-        text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
         font-size: 1.5rem;
         text-transform: uppercase;
-    }
 }
+
 
 img {
     max-width: 100%; /* DO NOT delete or change this line */
@@ -40,7 +43,6 @@ section {
     max-width: 45%;
 }
 
-
 .text {
     background: #fff;
     color: #000;
@@ -48,14 +50,16 @@ section {
     font-size: 1rem;
     line-height: 1.5rem;
     max-width: 40%;
-    h2 {
-        text-align: center;
-    }
+}
+
+.text h2 {
+    text-align: center;
 }
 
 .photo {
     padding: 1rem;
 }
+
 
 footer {
     text-align: center;
