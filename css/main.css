@@ -45,6 +45,8 @@ nav ul li a {
 
 img {
     max-width: 100%; /* DO NOT delete or change this line */
+    display: block;
+    margin: auto;
 }
 
 section {
@@ -61,10 +63,6 @@ section {
 
 .text h2 {
     text-align: center;
-}
-
-.photo {
-    margin: 1rem;
 }
 
 
@@ -123,9 +121,22 @@ footer {
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
+/*--- I tried to find colors that would work for the darker 'cinnamon' background and the lighter peach and pale beach backgrounds!---*/
+
 a {
-    color: #379CB2;
+    color: #3c1f07;
 }
+
 a:hover {
-    color: #82E8FF;
+    color: #70411a;
 }
+
+
+header a {
+    color: #f0ba89;
+}
+
+header a:hover {
+    color: #ffe4cc;
+}
+
